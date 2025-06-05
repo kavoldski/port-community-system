@@ -61,8 +61,8 @@ body {
 }
 
 .login-box {
-    background-color: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2px);
     padding: 30px;
     border-radius: 15px;
     box-shadow: var(--box-shadow);
@@ -70,7 +70,7 @@ body {
 }
 
 [data-theme="dark"] .login-box {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .logo-container {
@@ -78,14 +78,16 @@ body {
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 250px;
     height: auto;
 }
 
 h2 {
-    color: var(--primary-color);
+    color: white;
+    font-size: 24px;
     margin-bottom: 30px;
-    font-weight: 600;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .form-group {
