@@ -24,11 +24,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     transition: background 0.3s ease;
-    background-image: url('/dist/img/dark-mode-scale-down.jpg.jpg');
+    background-image: url('/img/dark-mode-scale-down.jpg.jpg');
 }
 
 [data-theme="dark"] body {
-    background-image: url('/dist/img/dark-mode-scale-down.jpg.jpg');
+    background-image: url('/img/dark-mode-scale-down.jpg.jpg');
 }
 
 .theme-toggle {
