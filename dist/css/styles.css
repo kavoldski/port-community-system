@@ -17,14 +17,14 @@ body {
     padding: 200px;
     min-height: 100vh;
     display: flex;
-    justify-content: left;
+    justify-content: right;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     transition: background 0.3s ease;
-    background-image: url('/img/dark-mode-scale-down.jpg.jpg');
+    background-image: url('/dist/img/light-mode-scale-down.jpg');
 }
 
 [data-theme="dark"] body {
