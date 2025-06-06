@@ -24,7 +24,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     transition: background 0.3s ease;
-    background-image: url('/img/light-mode-scale-down.jpg.jpg');
+    background-image: url('/img/dark-mode-scale-down.jpg.jpg');
 }
 
 [data-theme="dark"] body {
